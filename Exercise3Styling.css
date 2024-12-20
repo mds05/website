@@ -1,0 +1,69 @@
+html{
+    background-color: #A9B8C7;
+}
+.object{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.caption{
+    word-spacing: 33px;
+    padding-left: 13px;
+    padding-top: 9px;
+    color:rgba(10, 13, 51, .6);
+}
+.caption> .caption1{
+    word-spacing: 33px;
+    border: 2px solid rgba(0, 0, 0, 0.26);
+    padding: 5px;
+    border-radius: 36%;
+}
+
+.caption> .caption2{
+    word-spacing: 33px;
+    border: 2px solid rgba(0, 0, 0, 0.26);
+    padding: 5px;
+    border-radius: 36%;
+}
+.heading{
+    position:relative;
+    left:3%;
+}
+p{
+    position:relative;
+    left:3%;
+    padding-right:20%;
+}
+.image{
+    position: relative;
+    left: 2%;
+}
+.container{
+
+    background-color: white;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 395px;
+    max-height:600px;
+    border: 2px solid rgb(10 13 51 / 14%);
+    border-radius: 3%;
+    padding-top: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#button{
+    border-radius: 25%;
+    padding: 6px;
+    background-color: #89cff0;
+    font-family: cursive;
+    color: darkslateblue;
+    position: relative;
+    left: 40%;
+    bottom: 6px;
+    cursor:pointer;
+
+}
+
+
